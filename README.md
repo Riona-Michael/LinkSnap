@@ -2,7 +2,6 @@
 A scalable MERN stack URL shortener with custom link generation, MongoDB persistence, and efficient redirect routing.
 
 Steps to execute this:
-
 Install Node.js and npm, verify versions:
 node -v
 npm -v
