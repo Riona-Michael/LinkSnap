@@ -1,50 +1,47 @@
 # LinkSnap
 A scalable MERN stack URL shortener with custom link generation, MongoDB persistence, and efficient redirect routing.
 
-Steps to execute this:
-Install Node.js and npm, verify versions:
+Step 1: Install Node.js and npm, verify versions:
 node -v
 npm -v
-
-Install & start MongoDB:
+Step 2: Install and start MongoDB:
 mongod
-
-Create project folder:
+Step 3: Create project folder:
 mkdir url-shortener && cd url-shortener
 
-Create backend & frontend folders:
+Step 4: Create backend and frontend folders:
 mkdir backend frontend
 
-Go to backend:
+Step 5: Go to backend:
 cd backend
 
-Initialize npm:
+Step 6: Initialize npm:
 npm init -y
 
-Install backend packages:
+Step 7: Install backend packages:
 npm install express mongoose nanoid@3
 
-Create index.js and paste backend code.
+Step 8: Create index.js in backend and paste the backend code.
 
-Start backend:
+Step 9: Start backend:
 node index.js
-(You should see: MongoDB connected, Server running at 5000)
+(You should see MongoDB connected and Server running on 5000)
 
-Go to frontend:
+Step 10: Go to frontend:
 cd ../frontend
 
-Create React app:
+Step 11: Create React app:
 npx create-react-app@latest .
 
-Replace src/App.js with your React code.
+Step 12: Replace src/App.js with your React code.
 
-Add styling in src/App.css.
+Step 13: Add styling in src/App.css.
 
-Start frontend:
+Step 14: Start frontend:
 npm start
-(Runs at http://localhost:3000
+(Frontend runs at http://localhost:3000
 )
 
-Enter URL → click Shorten → get short URL.
+Step 15: Enter a URL → click Shorten → you get the short URL.
 
-Open short URL → redirects to original website.
+Step 16: Open the short URL → redirects to the original website.
