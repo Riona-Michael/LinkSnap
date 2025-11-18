@@ -4,8 +4,10 @@ A scalable MERN stack URL shortener with custom link generation, MongoDB persist
 Step 1: Install Node.js and npm, verify versions:
 node -v
 npm -v
+
 Step 2: Install and start MongoDB:
 mongod
+
 Step 3: Create project folder:
 mkdir url-shortener && cd url-shortener
 
